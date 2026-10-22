@@ -9,12 +9,6 @@ export function createClient() {
     throw new Error("Variáveis do Supabase ausentes.");
   }
 
-  console.log("Supabase URL configurada:", supabaseUrl);
-  console.log(
-    "Publishable Key configurada:",
-    supabasePublishableKey.startsWith("sb_publishable_")
-  );
-
   return createBrowserClient(
     supabaseUrl,
     supabasePublishableKey
