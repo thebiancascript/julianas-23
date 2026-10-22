@@ -117,15 +117,6 @@ export default function Hero({ onOpenAction }: HeroProps) {
   return (
     <section className="relative isolate flex min-h-svh w-full flex-col overflow-hidden bg-[#163D52] text-white">
 
-      {/* Imagem alternativa enquanto o vídeo carrega */}
-      <div
-        className="absolute inset-0 -z-30 bg-cover bg-center"
-        style={{
-          backgroundImage:
-            'url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80")',
-        }}
-      />
-
       {/* Vídeo do oceano */}
       <video
         autoPlay
