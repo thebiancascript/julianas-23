@@ -32,7 +32,7 @@ export default function TopicPage({
   if (!topic) return null;
 
   return (
-    <main className="min-h-screen bg-[#F2F7F6] text-[#163D52]">
+    <main className="min-h-screen bg-[#F8F6F0] text-[#163D52]">
       <div className="mx-auto min-h-screen w-full max-w-5xl px-5 py-8 sm:px-8 sm:py-12">
 
         {/* NAVEGAÇÃO */}

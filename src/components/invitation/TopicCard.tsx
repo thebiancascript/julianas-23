@@ -46,7 +46,7 @@ export default function TopicCard({
       type="button"
       onClick={() => onClickAction(topic.id)}
       aria-label={`Abrir tópico: ${topic.title}`}
-      className="group relative flex min-h-43 w-full flex-col justify-between overflow-hidden border border-[#20B7C5] bg-white p-4 text-left transition-all duration-300 hover:-translate-y-1 hover:border-[#C6A76D] hover:bg-[#F2F7F6] hover:shadow-[0_8px_24px_rgba(22,61,82,0.08)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#D2A52A] focus-visible:ring-offset-2 sm:min-h-47.5 sm:p-5 md:p-6"
+      className="group relative flex min-h-43 w-full flex-col justify-between overflow-hidden border border-[#00A6CB] bg-[#F8F6F0] p-4 text-left transition-all duration-300 hover:-translate-y-1 hover:border-[#C6A76D] hover:bg-[#F2F7F6] hover:shadow-[0_8px_24px_rgba(22,61,82,0.08)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#D2A52A] focus-visible:ring-offset-2 sm:min-h-47.5 sm:p-5 md:p-6"
     >
       <span
         aria-hidden="true"
@@ -77,17 +77,17 @@ export default function TopicCard({
           <Icon
             size={25}
             strokeWidth={1.35}
-            className="text-[#20B7C5] transition-all duration-300 group-hover:scale-110 group-hover:text-[#168FA8]"
+            className="text-[#00A6CB] transition-all duration-300 group-hover:scale-110 group-hover:text-[#168FA8]"
           />
         </div>
       </div>
 
       <div className="space-y-1.5">
-        <h3 className="font-serif text-lg leading-tight text-[#163D52] transition-colors duration-300 group-hover:text-[#168FA8] sm:text-xl">
+        <h3 className="font-serif text-lg font-bold leading-tight text-[#168FA8] transition-colors duration-300 group-hover:text-[#168FA8] sm:text-xl">
           {topic.title}
         </h3>
 
-        <p className="text-[11px] leading-relaxed text-[#71838A] sm:text-xs">
+        <p className="text-[11px] leading-relaxed text-[#168FA8] sm:text-xs">
           {topic.description}
         </p>
       </div>

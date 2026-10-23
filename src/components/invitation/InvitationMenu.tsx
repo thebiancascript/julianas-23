@@ -223,7 +223,7 @@ function WaveDivider() {
       viewBox="0 0 320 24"
       fill="none"
       aria-hidden="true"
-      className="mx-auto h-6 w-full max-w-65 text-[#07A0B5] sm:max-w-75 md:max-w-[320px]"
+      className="mx-auto h-6 w-full max-w-65 text-[#00A6CB] sm:max-w-75 md:max-w-[320px]"
     >
       <path
         d="M2 8 Q22 0 42 8 T82 8 T122 8 T162 8 T202 8 T242 8 T282 8 T318 8"
@@ -337,18 +337,18 @@ export default function InvitationMenu({
         className="pointer-events-none absolute inset-0 z-1 overflow-hidden"
       >
         {/* LATERAL ESQUERDA */}
-        <CoralBranch className="absolute -left-10 top-[0%] h-24 w-10 -rotate-12 text-[#72C5D0]/40 sm:-left-8 sm:h-32 sm:w-24" />
+        <CoralBranch className="absolute -left-10 top-[0%] h-24 w-10 -rotate-12 text-[#00A6CB]/40 sm:-left-8 sm:h-32 sm:w-24" />
 
-        <CoralBranch className="absolute -left-10 top-[25%] h-24 w-18 rotate-[8deg] text-[#72C5D0]/35 sm:-left-8 sm:h-32 sm:w-24" />
+        <CoralBranch className="absolute -left-10 top-[25%] h-24 w-18 rotate-[8deg] text-[#00A6CB]/35 sm:-left-8 sm:h-32 sm:w-24" />
 
-        <CoralBranch className="absolute -left-10 top-[0%] h-24 w-18 -rotate-12 text-[#72C5D0]/40 sm:-left-8 sm:h-32 sm:w-24" />
+        <CoralBranch className="absolute -left-10 top-[0%] h-24 w-18 -rotate-12 text-[#00A6CB]/40 sm:-left-8 sm:h-32 sm:w-24" />
 
-        <CoralBranch className="absolute -left-10 bottom-[1%] h-24 w-18 rotate-12 text-[#72C5D0]/35 sm:-left-8 sm:h-32 sm:w-24" />
+        <CoralBranch className="absolute -left-10 bottom-[1%] h-24 w-18 rotate-12 text-[#00A6CB]/35 sm:-left-8 sm:h-32 sm:w-24" />
 
         {/* LATERAL DIREITA */}
-        <CoralBranch className="absolute -right-10 top-[3%] h-24 w-18 rotate-12 scale-x-[-1] text-[#72C5D0]/35 sm:-right-8 sm:h-32 sm:w-24" />
-        <CoralBranch className="absolute -right-10 bottom-[2%] h-24 w-18 rotate-12 scale-x-[-1] text-[#72C5D0]/35 sm:-right-8 sm:h-32 sm:w-24" />
-        <CoralBranch className="absolute -right-10 top-[29%] h-24 w-18 -rotate-8 scale-x-[-1] text-[#72C5D0]/40 sm:-right-8 sm:h-32 sm:w-24" />
+        <CoralBranch className="absolute -right-10 top-[3%] h-24 w-18 rotate-12 scale-x-[-1] text-[#00A6CB]/35 sm:-right-8 sm:h-32 sm:w-24" />
+        <CoralBranch className="absolute -right-10 bottom-[2%] h-24 w-18 rotate-12 scale-x-[-1] text-[#00A6CB]/35 sm:-right-8 sm:h-32 sm:w-24" />
+        <CoralBranch className="absolute -right-10 top-[29%] h-24 w-18 -rotate-8 scale-x-[-1] text-[#00A6CB]/40 sm:-right-8 sm:h-32 sm:w-24" />
 
       </div>
 
@@ -360,13 +360,13 @@ export default function InvitationMenu({
         <Starfish className="absolute -right-3 top-167.5 h-24 w-24 rotate-18 text-[#C99524]/55 sm:right-[3%] sm:top-180 sm:h-32 sm:w-32" />
 
         {/* ESTRELA MOVIDA PARA O LADO ESQUERDO */}
-        <Starfish className="absolute bottom-68.25 left-[5%] h-14 w-14 rotate-[-15deg] text-[#168FA8]/45 sm:left-[12%] sm:h-20 sm:w-20" />
+        <Starfish className="absolute bottom-68.25 left-[5%] h-14 w-14 rotate-[-15deg] text-[#00A6CB]/45 sm:left-[12%] sm:h-20 sm:w-20" />
       </div>
 
       <div className="relative z-10">
         {/* CABEÇALHO */}
         <header className="relative mx-auto flex w-full max-w-6xl flex-col items-center px-5 pb-8 pt-12 text-center sm:pt-16">
-          <p className="text-[9px] font-semibold uppercase tracking-[0.35em] text-[#168FA8] sm:text-[10px]">
+          <p className="text-[9px] font-semibold uppercase tracking-[0.35em] text-[#00A6CB] sm:text-[10px]">
             Seja bem-vindo(a) ao meu convite de aniversário!
           </p>
 
@@ -380,13 +380,13 @@ export default function InvitationMenu({
           {/* ESTRELAS-DO-MAR AO REDOR DO TÍTULO */}
           <Starfish className="pointer-events-none absolute left-[1%] top-[48%] h-14 w-14 rotate-[-18deg] text-[#C99524]/75 sm:left-[9%] sm:h-20 sm:w-20 md:left-[13%]" />
 
-          <Starfish className="pointer-events-none absolute right-[1%] top-[51%] h-14 w-14 rotate-20 text-[#20B7C5]/65 sm:right-[9%] sm:h-20 sm:w-20 md:right-[13%]" />
+          <Starfish className="pointer-events-none absolute right-[1%] top-[51%] h-14 w-14 rotate-20 text-[#00A6CB]/65 sm:right-[9%] sm:h-20 sm:w-20 md:right-[13%]" />
 
-          <h1 className="script-font relative z-10 mt-2 text-[2.75rem] min-[375px]:text-6xl font-normal leading-[1.05] text-[#20B7C5] sm:text-7xl md:text-8xl">
+          <h1 className="script-font relative z-10 mt-2 text-[2.75rem] min-[375px]:text-6xl font-normal leading-[1.05] text-[#00A6CB] sm:text-7xl md:text-9xl">
               The Celebration
           </h1>
 
-          <p className="mt-5 text-[10px] font-medium uppercase tracking-[0.3em] text-[#168FA8] sm:text-xs">
+          <p className="mt-5 text-[1px] font-medium uppercase tracking-[0.3em] text-[#00A6CB] sm:text-xs">
             15 · 11 · 2026
           </p>
 
@@ -400,7 +400,7 @@ export default function InvitationMenu({
           <div className="relative border-y border-[#D2A52A]/80 py-7 text-center sm:py-9">
             <Starfish className="pointer-events-none absolute -right-1 top-1/2 hidden h-12 w-12 translate-x-full -translate-y-1/2 rotate-12 text-[#C99524]/55 sm:block" />
 
-            <p className="mb-6 text-[9px] font-semibold uppercase tracking-[0.3em] text-[#20B7C5] sm:text-[10px]">
+            <p className="mb-6 text-[9px] font-semibold uppercase tracking-[0.3em] text-[#00A6CB] sm:text-[10px]">
               {eventStarted
                 ? "Hoje é dia de celebrar!"
                 : "A contagem regressiva já começou"}
@@ -412,11 +412,11 @@ export default function InvitationMenu({
                   key={item.label}
                   className="relative flex flex-col items-center"
                 >
-                  <span className="script-font text-5xl font-normal leading-none tabular-nums text-[#20B7C5] sm:text-7xl md:text-8xl">
+                  <span className="script-font text-5xl font-normal leading-none tabular-nums text-[#00A6CB] sm:text-7xl md:text-8xl">
                     {formatNumber(item.value)}
                   </span>
 
-                  <span className="mt-2 text-[8px] font-medium uppercase tracking-[0.15em] text-[#20B7C5] sm:text-[10px] sm:tracking-[0.25em]">
+                  <span className="mt-2 text-[8px] font-medium uppercase tracking-[0.15em] text-[#00A6CB] sm:text-[10px] sm:tracking-[0.25em]">
                     {item.label}
                   </span>
 
@@ -439,7 +439,7 @@ export default function InvitationMenu({
             <div className="flex items-center gap-3">
               <SunOrnament className="h-7 w-7 text-[#D2A52A]" />
 
-              <p className="script-font text-4xl font-normal leading-none text-[#20B7C5] sm:text-5xl">
+              <p className="script-font text-4xl font-normal leading-none text-[#00A6CB] sm:text-6xl">
                 Explore o convite
               </p>
             </div>
@@ -458,12 +458,12 @@ export default function InvitationMenu({
                 fill="none"
                 className="h-full w-full"
               >
-                <g stroke="#20B7C5" strokeWidth="1.5" opacity=".25">
+                <g stroke="#00A6CB" strokeWidth="1.5" opacity=".25">
                   <path d="M-80 180 C80 120 190 240 350 180 S620 120 790 180 S1080 240 1280 165" />
                   <path d="M-80 205 C80 145 190 265 350 205 S620 145 790 205 S1080 265 1280 190" />
                   <path d="M-80 230 C80 170 190 290 350 230 S620 170 790 230 S1080 290 1280 215" />
 
-                  <path d="M-80 355 C80 295 190 415 350 355 S620 295 790 355 S1080 415 1280 340" />
+                  <path d="M-80 355 C8₀ 295 19₀ 415 35₀ 355 S62₀ 295 79₀ 355 S1₀8₀ 415 1₂8₀ 34₀" />
                   <path d="M-80 380 C80 320 190 440 350 380 S620 320 790 380 S1080 440 1280 365" />
                   <path d="M-80 405 C80 345 190 465 350 405 S620 345 790 405 S1080 465 1280 390" />
 
@@ -499,7 +499,7 @@ export default function InvitationMenu({
               onClick={toggleOceanSound}
               aria-label={oceanSoundPlaying ? "Pausar som do mar" : "Ouvir o som do mar"}
               aria-pressed={oceanSoundPlaying}
-              className="inline-flex min-h-11 items-center gap-2 rounded-full border border-[#D2A52A]/70 bg-[#FAF9F6]/90 px-5 py-3 text-[#168FA8] shadow-sm transition hover:bg-[#F1F5F4] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#168FA8] focus-visible:ring-offset-2"
+              className="inline-flex min-h-11 items-center gap-2 rounded-full border border-[#D2A52A]/70 bg-[#FAF9F6]/90 px-5 py-3 text-[#00A6CB] shadow-sm transition hover:bg-[#F1F5F4] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#00A6CB] focus-visible:ring-offset-2"
             >
               {oceanSoundPlaying ? <Volume2 size={17} /> : <VolumeX size={17} />}
               <span className="text-[9px] font-semibold uppercase tracking-[0.16em]">
@@ -511,7 +511,7 @@ export default function InvitationMenu({
 
         {/* RODAPÉ */}
         <footer className="relative border-t border-[#D2A52A]/65 px-5 py-8 text-center">
-          <p className="font-serif text-lg italic text-[#168FA8] sm:text-[16px]">
+          <p className="font-serif text-lg italic text-[#00A6CB] sm:text-[16px]">
             Let&apos;s make beautiful memories together.
           </p>
 
@@ -524,7 +524,7 @@ export default function InvitationMenu({
             <span className="h-px w-10 bg-[#D2A52A]/80" />
           </div>
 
-          <p className="mt-3 text-[8px] uppercase tracking-[0.25em] text-[#168FA8] sm:text-[9px]">
+          <p className="mt-3 text-[8px] uppercase tracking-[0.25em] text-[#00A6CB] sm:text-[9px]">
             23rd Birthday · 2026
           </p>
         </footer>

@@ -222,7 +222,7 @@ export default function GiftList() {
         </p>
 
         <h2 className="font-serif text-4xl font-normal text-[#163D52] sm:text-5xl md:text-6xl">
-          A Gift for Juliana
+          A Gift for Me 
         </h2>
 
         {/* Detalhe dourado */}
@@ -233,9 +233,6 @@ export default function GiftList() {
         </div>
 
         <p className="mx-auto mt-5 max-w-lg text-sm leading-7 text-[#71838A]">
-          Sua presença já será um presente especial!
-          Mas, caso queira me presentear, aqui abaixo tem
-          algumas sugestões escolhidas.
         </p>
       </header>
 
