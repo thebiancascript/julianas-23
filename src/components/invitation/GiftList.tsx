@@ -86,17 +86,7 @@ const gifts: GiftItem[] = [
     url:
       "https://www.boticario.com.br/produto/creme-hidratante-desodorante-corporal-novo-liz-250g/",
   },
-  {
-    id: "pocket-secrets",
-    name: "Kit Minipincéis Pocket",
-    brand: "Niina Secrets · Eudora",
-    category: "Acessórios",
-    image:
-      "https://cdn.gbmedia.com.br/images/w_1500%2Cf_webp%2Cfl_progressive%2Cq_auto%3Aeco%2Cw_800/v1/imagens/product/E89648/54ae6f27-564b-4871-bc9c-68de6a402867-89648-niina-kit-mini-pinceis-01.jpg",
-    url:
-      "https://www.amazon.com.br/s?k=Kit+Minipinc%C3%A9is+Pocket+Secrets+Niina+Secrets+6+itens",
-    linkLabel: "Buscar na Amazon",
-  },
+  
   {
     id: "necessaire-vhs",
     name: "Nécessaire VHS",
@@ -172,16 +162,6 @@ const gifts: GiftItem[] = [
     image:
       "https://oceane.vtexassets.com/arquivos/ids/205496/kit_blush_cintilante_lip_oil_blossom_oceane_edition_3.jpg?v=638908753876400000",
     url: "https://www.amazon.com.br/dp/B0BWRY743X",
-    linkLabel: "Ver na Amazon",
-  },
-  {
-    id: "book-diabo-veste-cor-de-rosa",
-    name: "O diabo veste cor-de-rosa",
-    brand: "Alexandria Bellefleur · Harlequin",
-    category: "Livros",
-    image:
-      "https://m.media-amazon.com/images/P/6559705927.01._SCLZZZZZZZ_.jpg",
-    url: "https://www.amazon.com.br/dp/6559705927",
     linkLabel: "Ver na Amazon",
   },
 ];
