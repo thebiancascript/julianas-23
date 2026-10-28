@@ -86,7 +86,7 @@ const gifts: GiftItem[] = [
     url:
       "https://www.boticario.com.br/produto/creme-hidratante-desodorante-corporal-novo-liz-250g/",
   },
-  
+
   {
     id: "necessaire-vhs",
     name: "Nécessaire VHS",
@@ -108,8 +108,8 @@ const gifts: GiftItem[] = [
     image:
       "https://cdn.gbmedia.com.br/images/w_1500%2Cf_webp%2Cfl_progressive%2Cq_auto%3Aeco%2Cw_800/v1/imagens/product/E56659/d95c39d0-8513-4621-9a37-64709c9acb61-56659-niina-secrets-kit-lip-celebration-natal-1.jpg",
     url:
-      "https://www.eudora.com.br/produto/niina-secrets-celebration-hidra-balm-32g-lip-oil-shine-flowers-7ml/",
-    linkLabel: "Ver na Eudora",
+      "https://www.amazon.com.br/dp/B0DLJ18G2C",
+    linkLabel: "Ver na Amazon",
   },
   {
     id: "sheglam-medusa",
